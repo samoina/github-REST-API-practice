@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Mulish&display=swap');
+
+:root {
+  --white: #fff;
+  --blue: rgb(72, 72, 235);
+  --offwhite: #f1ebeb;
+  --light-grey: rgb(211, 211, 211);
+  --dark-grey: #d3d3d3;
+  --orange: orange;
+}
+
+/* CSS Reset*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Mulish', sans-serif;
+  background-color: var(--offwhite);
+}
+
+body {
+  line-height: 1.5;
+}
+
+img, picture, video {
+  display: block;
+  max-width: 100%;
+}
+
+input {
+  font: inherit;
+}
+
+.header {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.header__title,
+.main {
+  margin: 0 auto;
+  width: 44rem;
+}
+
+.main {
+  padding-top: 2rem;
+}
+
+.main__button {
+  border: none;
+  background-color: var(--blue);
+  color: var(--offwhite);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.main__button:hover {
+  cursor: pointer;
+  border: 0.2rem solid var(--orange)
+}
+
+
+@media (min-width: 48rem) {
+  .header,
+  .main {
+    max-width: 44rem;
+  }
+
+ 
+}
+
