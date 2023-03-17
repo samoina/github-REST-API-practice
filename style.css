@@ -24,6 +24,7 @@ html, body {
 
 body {
   line-height: 1.5;
+  margin: 0 auto;
 }
 
 img, picture, video {
@@ -43,7 +44,8 @@ input {
 }
 
 .header__title,
-.main {
+.main,
+.article {
   margin: 0 auto;
   width: 44rem;
 }
